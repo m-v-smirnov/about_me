@@ -3,8 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .start {
+        background-color: #e5e5e5;
+      }
+      .start__aside {
+        font-family: Revalia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        color: #34547a;
+        text-align: center;
+        float: left;
+        width: 47%;
+      }
+      .start__nav {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .start__navboxes {
+        margin: 21px;
+        margin-top: 79px;
+        margin-bottom: 162px;
+        font-family: Roboto;
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
-
+    <section class="start">
+      <aside class="start__aside">
+        <p>WD</p>
+      </aside>
+      <nav class="start__nav">
+        <a class="start__navboxes" href="#main_page">ГЛАВНАЯ</a>
+        <a class="start__navboxes" href="#about_author">ОБ АВТОРЕ</a>
+        <a class="start__navboxes" href="#work">РАБОТЫ</a>
+        <a class="start__navboxes" href="#process">ПРОЦЕСС</a>
+        <a class="start__navboxes" href="#contacts">КОНТАКТЫ</a>
+      </nav>
+    </section>
   </body>
 </html>
