@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <title></title>
     <style>
-      * {
-        box-sizing: border-box;
-      }
+
       .start {
-        background-color: #e5e5e5;
+        background-color: #EEEFF1;
+        display: block;
       }
       .start__aside {
         font-family: Revalia;
@@ -30,10 +29,52 @@
         margin-bottom: 162px;
         font-family: Roboto;
         font-size: 16px;
+        font-style: normal;
+        text-decoration: none;
+      }
+      .start__frame {
+        text-align:right;
+        float: left;
+        margin-right: 130px;
+        width: 47%;
+      }
+      .start__header {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 500;
+        width: auto;
+      }
+      .start__section {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight:normal;
+      }
+      .start__button {
+        padding: 25px 41px;
+        margin-bottom: 146px;
+      }
+      .buttons {
+        background-color: #34547A;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .aboutme {
+        background-color: #FFFFFF;
+      }
+      .aboutme__header {
+        text-align: center;
+        margin-top: 119px;
+      }
+      .aboutme__article {
+        text-align: center;
+
       }
     </style>
   </head>
   <body>
+
     <section class="start">
       <aside class="start__aside">
         <p>WD</p>
@@ -45,6 +86,28 @@
         <a class="start__navboxes" href="#process">ПРОЦЕСС</a>
         <a class="start__navboxes" href="#contacts">КОНТАКТЫ</a>
       </nav>
+      <aside class="start__frame">
+        <img src="content/Frame.svg" alt="Oops!!">
+      </aside>
+      <header class="start__header">
+        <p>Дизайн и верстка</p>
+      </header>
+      <section class="start__section">
+        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+          на латинице с начала XVI века.</p>
+      </section>
+      <article>
+        <a class="buttons start__button" href="#mailto">НАПИСАТЬ МНЕ</a>
+      </article>
+    </section>
+
+    <section class="aboutme">
+      <header class="aboutme__header"><h2>Обо мне</h2></header>
+      <article class="aboutme__article"><p>Lorem Ipsum - это текст-"рыба", часто
+         используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+         "рыбой" для текстов на латинице с начала XVI века.</p>
+      </article>
     </section>
   </body>
 </html>
