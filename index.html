@@ -7,7 +7,6 @@
 
       .start {
         background-color: #EEEFF1;
-        display: block;
       }
       .start__aside {
         font-family: Revalia;
@@ -38,16 +37,21 @@
         margin-right: 130px;
         width: 47%;
       }
+      .start__div {
+        display: flex;
+        flex-direction: column;
+      }
       .start__header {
         font-family: Roboto;
         font-size: 48px;
         font-weight: 500;
-        width: auto;
+        width: 540px;
       }
       .start__section {
         font-family: Roboto;
         font-size: 16px;
         font-weight:normal;
+        width: 540px;
       }
       .start__button {
         padding: 25px 41px;
@@ -61,15 +65,51 @@
         display: inline-block;
       }
       .aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         background-color: #FFFFFF;
       }
       .aboutme__header {
+        width: 540px;
         text-align: center;
         margin-top: 119px;
       }
       .aboutme__article {
+        width: 540px;
         text-align: center;
-
+        margin-top: 50px;
+        margin-bottom: 100px;
+      }
+      .aboutme__footer {
+        display: flex;
+        justify-content: center;
+        background-color: #34547A;
+      }
+      .aboutme__img {
+        margin: 100px 32px;
+      }
+      .skills {
+        background-color: #FFFFFF;
+      }
+      .skills__aside {
+        float: right;
+      }
+      .skills__img {
+        width: 555px;
+        margin-right: 384px;
+        margin-top: 102px;
+        margin-bottom: 101px;
+        margin-left: 150px;
+      }
+      .skills__div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 386px;
+      }
+      .skills__header {
+        margin-top: 204px;
       }
     </style>
   </head>
@@ -89,18 +129,21 @@
       <aside class="start__frame">
         <img src="content/Frame.svg" alt="Oops!!">
       </aside>
-      <header class="start__header">
-        <p>Дизайн и верстка</p>
-      </header>
-      <section class="start__section">
-        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
-          на латинице с начала XVI века.</p>
-      </section>
-      <article>
-        <a class="buttons start__button" href="#mailto">НАПИСАТЬ МНЕ</a>
-      </article>
+      <div class="start__div">
+        <header class="start__header">
+          <p>Дизайн и верстка</p>
+        </header>
+        <section class="start__section">
+          <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+            на латинице с начала XVI века.</p>
+        </section>
+        <article>
+          <a class="buttons start__button" href="#mailto">НАПИСАТЬ МНЕ</a>
+        </article>
+      </div>
     </section>
+
 
     <section class="aboutme">
       <header class="aboutme__header"><h2>Обо мне</h2></header>
@@ -108,6 +151,43 @@
          используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
          "рыбой" для текстов на латинице с начала XVI века.</p>
       </article>
+    </section>
+    <footer class="aboutme__footer">
+        <img class="aboutme__img" src="content/numbers__item.svg" alt="Oops">
+        <img class="aboutme__img" src="content/numbers__item.svg" alt="Oops">
+        <img class="aboutme__img" src="content/numbers__item.svg" alt="Oops">
+        <img class="aboutme__img" src="content/numbers__item.svg" alt="Oops">
+        <img class="aboutme__img" src="content/numbers__item.svg" alt="Oops">
+        <img class="aboutme__img" src="content/numbers__item.svg" alt="Oops">
+    </footer>
+
+    <section class="skills">
+      <aside class="skills__aside">
+        <img class="skills__img" src="content/man_face.png" alt="Oops">
+      </aside>
+      <div class="skills__div">
+        <header class="skills__header">
+          <h2>Мои навыки</h2>
+        </header>
+        <div class="">
+          <p>Adobe photoshop</p>
+          <svg width="445" height="4">
+            <rect width="445" height="4" style="fill: #EEEFF1;" />
+          </svg>
+        </div>
+        <div class="">
+          <p>Adobe photoshop</p>
+          <svg width="445" height="4">
+            <rect width="445" height="4" style="fill: #EEEFF1;" />
+          </svg>
+        </div>
+        <div class="">
+          <p>Adobe photoshop</p>
+          <svg width="445" height="4">
+            <rect width="445" height="4" style="fill: #EEEFF1;" />
+          </svg>
+        </div>
+      </div>
     </section>
   </body>
 </html>
