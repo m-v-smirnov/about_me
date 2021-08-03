@@ -9,7 +9,7 @@
         background-color: #EEEFF1;
       }
       .start__aside {
-        font-family: Revalia;
+        font-family: revalia;
         font-style: normal;
         font-weight: normal;
         font-size: 48px;
@@ -26,10 +26,11 @@
         margin: 21px;
         margin-top: 79px;
         margin-bottom: 162px;
-        font-family: Roboto;
+        font-family: roboto;
         font-size: 16px;
         font-style: normal;
         text-decoration: none;
+        color: #000000;
       }
       .start__frame {
         text-align:right;
@@ -42,13 +43,13 @@
         flex-direction: column;
       }
       .start__header {
-        font-family: Roboto;
+        font-family: roboto;
         font-size: 48px;
         font-weight: 500;
         width: 540px;
       }
       .start__section {
-        font-family: Roboto;
+        font-family: roboto;
         font-size: 16px;
         font-weight:normal;
         width: 540px;
@@ -107,9 +108,27 @@
         flex-direction: column;
         align-items: flex-start;
         margin-left: 386px;
+        margin-bottom: 192px;
       }
       .skills__header {
         margin-top: 204px;
+      }
+      .work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #EEEFF1;
+        text-align: center;
+      }
+      .work__header {
+        padding-top: 100px;
+      }
+      .work__article {
+        width: 540px;
+        margin-bottom: 57px;
+      }
+      .work__div {
+        margin-bottom: 100px;
       }
     </style>
   </head>
@@ -189,5 +208,20 @@
         </div>
       </div>
     </section>
+
+    <section class="work">
+      <header class="work__header">
+        <h2>Как я работаю</h2>
+      </header>
+      <article class="work__article">
+        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-
+          дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+          латинице с начала XVI века.</p>
+      </article>
+      <div class="work__div">
+        <img src="content/coding.png" alt="Oops">
+      </div>
+    </section>
+
   </body>
 </html>
