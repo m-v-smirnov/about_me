@@ -1,4 +1,6 @@
-
+      * {
+        box-sizing: border-box;
+      }
       .start {
         background-color: #EEEFF1;
       }
@@ -131,7 +133,38 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        transition-property: opacity;
+        transition-duration: 0.5s;
       }
       .work__div:hover .work__play {
+        opacity: 0.8;
+      }
+      .gridbox {
+        display: flex;
+        flex-direction: column;
+      }
+      .grid {
+        display: flex;
+      }
+      .grid__div {
+        position: relative;
+        flex: 25%;
+        margin: -2px 0px;
+        background-color: #34547A;
+      }
+      .grid__img {
+        opacity: 1;
+      }
+      .grid__eye {
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .grid__div:hover .grid__img {
+        opacity: 0.5;
+      }
+      .grid__div:hover .grid__eye {
         opacity: 1;
       }
