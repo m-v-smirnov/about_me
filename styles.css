@@ -154,6 +154,7 @@
       }
       .grid__img {
         opacity: 1;
+        width: 100%;
       }
       .grid__eye {
         opacity: 0;
