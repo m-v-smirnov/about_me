@@ -5,7 +5,7 @@
         background-color: #EEEFF1;
       }
       .start__aside {
-        font-family: revalia;
+        font-family: Revalia;
         font-style: normal;
         font-weight: normal;
         font-size: 48px;
@@ -37,18 +37,21 @@
       .start__div {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
       }
       .start__header {
         font-family: roboto;
         font-size: 48px;
         font-weight: 500;
-        width: 540px;
+        width: 66%;
+        min-width: 302px;
       }
       .start__section {
         font-family: roboto;
         font-size: 16px;
         font-weight:normal;
-        width: 540px;
+        width: 66%;
+        min-width: 322px;
       }
       .start__button {
         padding: 25px 41px;
@@ -68,17 +71,19 @@
         background-color: #FFFFFF;
       }
       .aboutme__header {
-        width: 540px;
+        width: 28%;
         text-align: center;
         margin-top: 119px;
       }
       .aboutme__article {
-        width: 540px;
+        width: 28%;
+        min-width: 323px;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 100px;
       }
       .aboutme__footer {
+        width: 100%;
         display: flex;
         justify-content: center;
         background-color: #34547A;
@@ -93,7 +98,8 @@
         float: right;
       }
       .skills__img {
-        width: 555px;
+        width: 58%;
+        min-width: 339px;
         margin-right: 384px;
         margin-top: 102px;
         margin-bottom: 101px;
@@ -111,6 +117,7 @@
       }
       .work {
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         background-color: #EEEFF1;
@@ -223,10 +230,51 @@
       .request__footer {
         display: flex;
         background-color: #34547A;
+        color: #FFFFFF;
         width: 100%;
         align-items: center;
         justify-content: space-around;
       }
       .request__img {
         margin: 10px;
+      }
+      @media (max-width: 1279px) {
+        .start__nav {
+          display: none;
+        }
+        .start__aside {
+          float: none;
+        }
+        .start__frame {
+          float: none;
+          margin: 50px;
+          align-items: center;
+        }
+        .start__div {
+          align-items: center;
+        }
+        .start__header {
+          text-align: center;
+          font-size: 36px;
+        }
+        .start__section {
+          text-align: center;
+        }
+        .aboutme__footer {
+          flex-wrap: wrap;
+        }
+        .skills__aside {
+          float: none;
+        }
+        .skills__img {
+          margin: 70px;
+          align-self: center;
+        }
+        .skills__header {
+          margin: 5px;
+        }
+        .skills__div {
+          align-items: center;
+          margin: 50px;
+        }
       }
