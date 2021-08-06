@@ -189,14 +189,14 @@
         background-color: #EEEFF1;
       }
       .request__header {
-        width: 540px;
+        width: 28%;
         min-width: 322px;
         text-align: center;
         margin-top: 100px;
         margin-bottom: 65px;
       }
       .request__article {
-        width: 540px;
+        width: 28%;
         text-align: center;
         min-width: 322px;
         margin-bottom: 65px;
@@ -276,5 +276,26 @@
         .skills__div {
           align-items: center;
           margin: 50px;
+        }
+        .work__img {
+          width: 58%;
+        }
+        .work__play {
+          width: 75px;
+        }
+        .gridbox {
+          flex-direction: row;
+        }
+        .grid {
+          flex-direction: column;
+        }
+        .request__section {
+          flex-direction: column;
+        }
+        .request__text {
+          width: 342px;
+        }
+        .request__textarea {
+          width: 342px;
         }
       }
