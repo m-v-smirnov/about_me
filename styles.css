@@ -1,11 +1,13 @@
       * {
         box-sizing: border-box;
       }
+
       .start {
+        font-family: 'Roboto', sans-serif;
         background-color: #EEEFF1;
       }
       .start__aside {
-        font-family: Revalia;
+        font-family: 'Revalia', cursive;
         font-style: normal;
         font-weight: normal;
         font-size: 48px;
@@ -22,7 +24,6 @@
         margin: 21px;
         margin-top: 79px;
         margin-bottom: 162px;
-        font-family: roboto;
         font-size: 16px;
         font-style: normal;
         text-decoration: none;
@@ -40,14 +41,12 @@
         align-items: flex-start;
       }
       .start__header {
-        font-family: roboto;
         font-size: 48px;
         font-weight: 500;
         width: 66%;
         min-width: 302px;
       }
       .start__section {
-        font-family: roboto;
         font-size: 16px;
         font-weight:normal;
         width: 66%;
@@ -65,6 +64,7 @@
         display: inline-block;
       }
       .aboutme {
+        font-family:  'Roboto', sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -92,6 +92,7 @@
         margin: 100px 32px;
       }
       .skills {
+        font-family: 'Roboto', sans-serif;
         background-color: #FFFFFF;
       }
       .skills__aside {
@@ -116,6 +117,7 @@
         margin-top: 204px;
       }
       .work {
+        font-family: 'Roboto', sans-serif;
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -183,6 +185,7 @@
         opacity: 1;
       }
       .request {
+        font-family: 'Roboto', sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -206,6 +209,7 @@
         display: flex;
       }
       .request__text {
+        font-family: inherit;
         width: 255px;
         height: 50px;
         padding: 20px;
@@ -214,17 +218,18 @@
         margin-bottom: 20px;
       }
       .request__textarea {
+        font-family: inherit;
         padding: 20px;
         width: 540px;
         height: 175px;
         margin-bottom: 50px;
       }
       .request__button {
+        font-family: inherit;
         background-color: #34547A;
         color: #FFFFFF;
         width: 190px;
         height: 55px;
-        font-family: roboto;
         margin-bottom: 100px;
       }
       .request__footer {
