@@ -43,14 +43,12 @@
         color: #000000;
       }
       .start__frameflex {
-        /*width: 1028px;*/
+        width: 1105px;
         display: flex;
         justify-content: space-around;
         align-items: center;
       }
       .start__frame {
-        text-align:right;
-        float: left;
         width: 357px;
       }
       .start__div {
@@ -67,9 +65,10 @@
       }
       .start__section {
         font-size: 16px;
-        font-weight:normal;
+        line-height: 26px;
+        color: #727272;
+        font-weight:400;
         width: 540px;
-        min-width: 322px;
       }
       .start__button {
         padding: 25px 41px;
@@ -86,53 +85,82 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         background-color: #FFFFFF;
+        width: 1920px;
+        height: 366px;
+        padding-top: 119px;
+        padding-bottom: 100px;
       }
       .aboutme__header {
-        width: 28%;
+        width: 403px;
         text-align: center;
-        margin-top: 119px;
+        font-weight: 500;
       }
       .aboutme__article {
-        width: 28%;
-        min-width: 323px;
+        width: 540px;
         text-align: center;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        line-height: 26px;
+        color: #727272;
       }
       .aboutme__footer {
-        width: 100%;
+        width: 1920px;
+        height: 250px;
+        padding-left: 405px;
+        padding-right: 424px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         background-color: #34547A;
       }
       .aboutme__img {
-        margin: 100px 32px;
+        width: 141px;
       }
       .skills {
         font-family: 'Roboto', sans-serif;
         background-color: #FFFFFF;
+        width: 1920px;
+        height: 653px;
+        padding-top: 102px;
+        padding-bottom: 101px;
+        padding-right: 384px;
+        padding-left: 386px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
       }
       .skills__aside {
-        float: right;
       }
       .skills__img {
-        width: 58%;
-        min-width: 339px;
-        margin-right: 384px;
-        margin-top: 102px;
-        margin-bottom: 101px;
-        margin-left: 150px;
+        width: 555px;
       }
       .skills__div {
+        height: 257px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 386px;
-        margin-bottom: 192px;
+        justify-content: space-between;
       }
       .skills__header {
-        margin-top: 204px;
+        font-size: 32px;
+        font-style: normal;
+        line-height: 37px;
+        font-weight: 500;
+      }
+      .skills__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+      }
+      .skills__stripes1 {
+        width: 445px;
+        height: 4px;
+      }
+      .skills__stripes2 {
+        width: 350px;
+        height: 4px;
       }
       .work {
         font-family: 'Roboto', sans-serif;
@@ -264,16 +292,33 @@
         margin: 10px;
       }
       @media (max-width: 1279px) {
+        .start {
+          width: 375px;
+          height: 782px;
+          padding-left: 19px;
+          padding-right: 19px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          margin: 0;
+          justify-content: space-around;
+        }
         .start__nav {
           display: none;
         }
         .start__aside {
           float: none;
         }
+        .start__frameflex {
+          flex-direction: column;
+          justify-content: space-between;
+          width: 322px;
+        }
         .start__frame {
-          float: none;
-          margin: 50px;
+          width: 298px;
           align-items: center;
+        }
+        .start__img {
+          width: 298px;
         }
         .start__div {
           align-items: center;
@@ -281,26 +326,61 @@
         .start__header {
           text-align: center;
           font-size: 36px;
+          width: 302px;
         }
         .start__section {
           text-align: center;
+          width: 322px
+        }
+        .aboutme {
+          width: 375px;
+          height: 351px;
+          padding-top: 91px;
+          padding-bottom: 82;
+        }
+        .aboutme__header{
+          width: 126px;
+        }
+        .aboutme__article{
+          width: 323px;
+          line-height: 19px;
         }
         .aboutme__footer {
+          width: 376px;
+          height: 477px;
+          padding-left: 18px;
+          padding-right: 19px;
           flex-wrap: wrap;
         }
+        .skills {
+          width: 375px;
+          height: 815px;
+          padding-left: 0;
+          padding-right: 0;
+          padding-top: 82px;
+          padding-bottom: 103px;;
+          flex-direction: column;
+          align-items: center;
+        }
         .skills__aside {
-          float: none;
         }
         .skills__img {
-          margin: 70px;
-          align-self: center;
+          width: 339px;
+        /*  align-self: center;*/
         }
         .skills__header {
           margin: 5px;
         }
         .skills__div {
           align-items: center;
-          margin: 50px;
+          width: 339px;
+        }
+        .skills__stripes1 {
+          width: 339px;
+        }
+        .skills__stripes2 {
+          width: 267px;
+          height: 4px;
         }
         .work__img {
           width: 58%;
