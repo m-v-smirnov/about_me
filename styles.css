@@ -16,6 +16,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: stretch;
       }
       .start__wd {
         display: flex;
@@ -42,8 +43,10 @@
         color: #000000;
       }
       .start__frameflex {
+        /*width: 1028px;*/
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
       }
       .start__frame {
         text-align:right;
