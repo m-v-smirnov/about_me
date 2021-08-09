@@ -1,10 +1,25 @@
       * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
       }
 
       .start {
         font-family: 'Roboto', sans-serif;
         background-color: #EEEFF1;
+        width: 1920px;
+        height: 700px;
+        padding-top: 57px;
+        padding-bottom: 146px;
+        padding-left: 402px;
+        padding-right: 413px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .start__wd {
+        display: flex;
+        justify-content: space-between;
       }
       .start__aside {
         font-family: 'Revalia', cursive;
@@ -13,48 +28,48 @@
         font-size: 48px;
         color: #34547a;
         text-align: center;
-        float: left;
-        width: 47%;
       }
       .start__nav {
         display: flex;
-        justify-content: flex-start;
+        justify-content:space-between;
+        width: 611px;
+        align-items: center;
       }
       .start__navboxes {
-        margin: 21px;
-        margin-top: 79px;
-        margin-bottom: 162px;
         font-size: 16px;
         font-style: normal;
         text-decoration: none;
         color: #000000;
       }
+      .start__frameflex {
+        display: flex;
+        justify-content: space-between;
+      }
       .start__frame {
         text-align:right;
         float: left;
-        margin-right: 130px;
-        width: 47%;
+        width: 357px;
       }
       .start__div {
+        height: 297px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        justify-content: space-between;
       }
       .start__header {
         font-size: 48px;
         font-weight: 500;
-        width: 66%;
-        min-width: 302px;
+        width: 541px;
+        /*min-width: 302px;*/
       }
       .start__section {
         font-size: 16px;
         font-weight:normal;
-        width: 66%;
+        width: 540px;
         min-width: 322px;
       }
       .start__button {
         padding: 25px 41px;
-        margin-bottom: 146px;
       }
       .buttons {
         background-color: #34547A;
@@ -216,6 +231,7 @@
         margin-left: 15px;
         margin-right: 15px;
         margin-bottom: 20px;
+        border: 0px;
       }
       .request__textarea {
         font-family: inherit;
@@ -223,6 +239,7 @@
         width: 540px;
         height: 175px;
         margin-bottom: 50px;
+        border: 0px;
       }
       .request__button {
         font-family: inherit;
