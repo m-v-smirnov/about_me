@@ -165,27 +165,35 @@
       .work {
         font-family: 'Roboto', sans-serif;
         display: flex;
-        width: 100%;
+        width: 1920px;
+        height: 1004px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         flex-direction: column;
         align-items: center;
         background-color: #EEEFF1;
         text-align: center;
+        justify-content: space-between;
       }
       .work__header {
-        padding-top: 100px;
+        width: 403px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        /*padding-top: 100px;*/
       }
       .work__article {
-        width: 28%;
-        min-width: 323px;
-        margin-bottom: 57px;
+        font-size: 16px;
+        line-height: 26px;
+        width: 540px;
+        color: #727272;
       }
       .work__div {
         position: relative;
-        margin-bottom: 100px;
+        /*margin-bottom: 100px;*/
       }
       .work__img {
         width: 1110px;
-        min-width: 339px;
       }
       .work__play {
         opacity: 0;
@@ -200,24 +208,30 @@
         opacity: 0.8;
       }
       .gridbox {
+        width: 1920px;
+        height: 1016px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
       }
       .grid {
         display: flex;
+        justify-content: flex-start;
       }
       .grid__div {
         position: relative;
-        flex: 25%;
-        margin: -2px 0px;
+        width: 480px;
+        height: 480px;
         background-color: #34547A;
       }
       .grid__img {
         opacity: 1;
-        width: 100%;
+        width: 480px;
       }
       .grid__eye {
-        width: 21%;
+        width: 100px;
         opacity: 0;
         position: absolute;
         top: 50%;
@@ -232,45 +246,64 @@
       }
       .request {
         font-family: 'Roboto', sans-serif;
+        width: 1920px;
+        height: 762px;
+        padding: 100px 0;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         background-color: #EEEFF1;
       }
       .request__header {
-        width: 28%;
-        min-width: 322px;
+        width: 406px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
         text-align: center;
-        margin-top: 100px;
-        margin-bottom: 65px;
+        color: #000000;
+        text-align: center;
       }
       .request__article {
-        width: 28%;
+        width: 540px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
         text-align: center;
-        min-width: 322px;
-        margin-bottom: 65px;
 
       }
-      .request__section {
+      .request__form {
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 540px;
+        height: 245px;
+      }
+      .request__formtext {
+        display: flex;
+        justify-content: space-between;
       }
       .request__text {
         font-family: inherit;
         width: 255px;
         height: 50px;
-        padding: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-bottom: 20px;
         border: 0px;
+        padding: 17px 20px;
+        font-size: 14px;
+        line-height: 23px;
+        color: #5F5D5D;
       }
       .request__textarea {
         font-family: inherit;
-        padding: 20px;
         width: 540px;
         height: 175px;
-        margin-bottom: 50px;
         border: 0px;
+        padding: 17px 20px;
+        resize: none;
+        font-size: 14px;
+        line-height: 23px;
+        color: #5F5D5D;
       }
       .request__button {
         font-family: inherit;
@@ -278,18 +311,41 @@
         color: #FFFFFF;
         width: 190px;
         height: 55px;
-        margin-bottom: 100px;
+        border: 0;
       }
-      .request__footer {
+      .footer {
+        font-family: 'Roboto', sans-serif;
         display: flex;
         background-color: #34547A;
         color: #FFFFFF;
-        width: 100%;
+        width: 1920px;
+        height: 151px;
+        padding-left: 406px;
+        padding-right: 389px;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
       }
-      .request__img {
-        margin: 10px;
+      .footer__text {
+        height: 51px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .footer__header {
+        height: 19px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+      }
+      .footer__article {
+        height: 12px;
+        font-size: 13px;
+        line-height: 21px;
+      }
+      .footer__img {
+        width: 175px;
+        display: flex;
+        justify-content: space-between;
       }
       @media (max-width: 1279px) {
         .start {
@@ -382,19 +438,56 @@
           width: 267px;
           height: 4px;
         }
+        .work {
+          width: 375px;
+          height: 596px;
+          padding-top: 93px;
+          padding-bottom: 91px;
+        }
+        .work__article {
+          width: 323px;
+        }
         .work__img {
-          width: 58%;
+          width: 339px;
         }
         .work__play {
           width: 75px;
         }
         .gridbox {
+          width: 375px;
+          height: 818px;
+          padding: 34px 0;
           flex-direction: row;
         }
         .grid {
           flex-direction: column;
         }
-        .request__section {
+        .grid__div {
+          width: 188px;
+          height: 188px;
+        }
+        .grid__img {
+          width: 188px;
+          height: 188px;
+        }
+        .request {
+          width: 375px;
+          height: 818px;
+          padding-top: 91px;
+          padding-bottom: 100px;
+        }
+        .request__header {
+          width: 260px;
+        }
+        .request__article {
+          width: 322px;
+        }
+        .request__form {
+          width: 342px;
+          height: 318px;
+        }
+        .request__formtext {
+          height: 122px;
           flex-direction: column;
         }
         .request__text {
@@ -403,4 +496,15 @@
         .request__textarea {
           width: 342px;
         }
+        .footer {
+          width: 375px;
+          height: 210px;
+          padding: 0;
+          padding-top: 50px;
+          padding-bottom: 48px;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
       }

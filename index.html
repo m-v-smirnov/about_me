@@ -84,7 +84,7 @@
             <rect class="skills__stripes2" style="fill: #34547A;" />
           </svg>
         </div>
-        <div class="skills__te">
+        <div class="skills__text">
           <p>Adobe photoshop</p>
           <svg class="skills__stripes1">
             <rect class="skills__stripes1" style="fill: #C4C4C4;" />
@@ -96,7 +96,7 @@
 
     <section class="work">
       <header class="work__header">
-        <h2>Как я работаю</h2>
+        <p>Как я работаю</p>
       </header>
       <article class="work__article">
         <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-
@@ -150,38 +150,46 @@
 
    <section class="request">
      <header class="request__header">
-       <h2>Хотите веб-сайт?</h2>
+       <p>Хотите веб-сайт?</p>
      </header>
      <article class="request__article">
        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
          на латинице с начала XVI века.</p>
      </article>
-    <section class="request__section">
-      <form>
-         <input class="request__text" type="text" id="name" name="name" value="Ваше имя">
-      </form>
-      <form>
-         <input class="request__text" type="text" id="email" name="email" value="Ваш e-mail">
-      </form>
+     <div class="request__form">
+       <section class="request__formtext">
+         <form>
+           <input class="request__text" type="text" id="name" name="name" value="Ваше имя">
+         </form>
+         <form>
+           <input class="request__text" type="text" id="email" name="email" value="Ваш e-mail">
+         </form>
+       </section>
+         <form>
+           <textarea class="request__textarea" name="message">Сообщение</textarea>
+         </form>
+     </div>
+     <form>
+       <button class="request__button" type="button" name="button">ОТПРАВИТЬ</button>
+     </form>
     </section>
-    <form>
-      <textarea class="request__textarea" name="message">Сообщение</textarea>
-    </form>
-    <form>
-    <button class="request__button" type="button" name="button">ОТПРАВИТЬ</button>
-    </form>
-    <footer class="request__footer">
-      <div class="">
-        <h3>Иванов Иван</h3>
-        <p>(с) 2018. Все права защищены.</p>
+
+    <footer class="footer">
+      <div class="footer__text">
+        <header class="footer__header">
+          <p>Иванов Иван</p>
+        </header>
+        <article class="footer__article">
+          <p>(с) 2018. Все права защищены.</p>
+        </article>
       </div>
-      <div class="">
-        <img class="request__img" src="content/vk-logo.svg" alt="VK">
-        <img class="request__img" src="content/vk-logo.svg" alt="VK">
-        <img class="request__img" src="content/vk-logo.svg" alt="VK">
+      <div class="footer__img">
+        <img src="content/vk-logo.svg" alt="VK">
+        <img src="content/vk-logo.svg" alt="VK">
+        <img src="content/vk-logo.svg" alt="VK">
       </div>
     </footer>
-   </section>
+
   </body>
 </html>
