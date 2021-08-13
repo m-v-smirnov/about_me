@@ -189,8 +189,7 @@
       .work {
         font-family: 'Roboto', sans-serif;
         display: flex;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 100px 0;
         flex-direction: column;
         align-items: center;
         background-color: #EEEFF1;
@@ -385,29 +384,33 @@
       }
       @media (max-width: 1150px) {
         .start {
-          width: 375px;
-          height: 782px;
+          /*justify-content: space-around;*/
+        }
+        .start__wd {
+          padding-top: 22px;
           padding-left: 19px;
-          padding-right: 19px;
-          padding-top: 0px;
-          padding-bottom: 0px;
+          width: auto;
           margin: 0;
-          justify-content: space-around;
         }
         .start__nav {
           display: none;
         }
         .start__aside {
+
           float: none;
         }
         .start__frameflex {
+          padding-top: 67px;
+          padding-bottom: 95px;
           flex-direction: column;
           justify-content: space-between;
-          width: 322px;
+          width: auto;
         }
         .start__frame {
-          width: 298px;
-          align-items: center;
+          width: auto;
+          padding: 0;
+          margin: 0 auto;
+          margin-bottom: 51px;
         }
         .start__img {
           width: 298px;
@@ -421,14 +424,13 @@
           width: 302px;
         }
         .start__section {
+          padding: 44px 0;
           text-align: center;
           width: 322px
         }
         .aboutme {
-          width: 375px;
-          height: 351px;
           padding-top: 91px;
-          padding-bottom: 82;
+          padding-bottom: 82px;
         }
         .aboutme__header{
           width: 126px;
@@ -438,19 +440,21 @@
           line-height: 19px;
         }
         .aboutme__footer {
-          width: 376px;
-          height: 477px;
-          padding-left: 18px;
-          padding-right: 19px;
-          flex-wrap: wrap;
+
         }
-        .skills {
-          width: 375px;
-          height: 815px;
-          padding-left: 0;
-          padding-right: 0;
-          padding-top: 82px;
-          padding-bottom: 103px;;
+        .aboutme__div {
+          width: auto;
+          flex-wrap: wrap;
+          padding: 30px 0;
+        }
+        .aboutme__img {
+          padding: 45px 0;
+        }
+        .skills__content {
+          padding: 0;
+          margin-top: 82px;
+          margin-bottom: 103px;
+          width: auto;
           flex-direction: column;
           align-items: center;
         }
@@ -461,9 +465,10 @@
         /*  align-self: center;*/
         }
         .skills__header {
-          margin: 5px;
+
         }
         .skills__div {
+          margin-top: 98px;
           align-items: center;
           width: 339px;
         }
@@ -475,10 +480,11 @@
           height: 4px;
         }
         .work {
-          width: 375px;
-          height: 596px;
           padding-top: 93px;
           padding-bottom: 91px;
+        }
+        .work__header {
+          width: 220px;
         }
         .work__article {
           width: 323px;
@@ -490,8 +496,7 @@
           width: 75px;
         }
         .gridbox {
-          width: 375px;
-          height: 818px;
+          width: auto;
           padding: 34px 0;
           flex-direction: row;
         }
@@ -499,16 +504,13 @@
           flex-direction: column;
         }
         .grid__div {
-          width: 188px;
-          height: 188px;
+          max-width: 100%;
         }
         .grid__img {
-          width: 188px;
-          height: 188px;
+          width: 100%;
         }
         .request {
-          width: 375px;
-          height: 818px;
+          width: auto;
           padding-top: 91px;
           padding-bottom: 100px;
         }
@@ -517,10 +519,13 @@
         }
         .request__article {
           width: 322px;
+          padding-top: 34px;
+          padding-bottom: 48px;
         }
         .request__form {
+          height: auto;
           width: 342px;
-          height: 318px;
+          /*height: 318px;*/
         }
         .request__formtext {
           height: 122px;
@@ -530,17 +535,24 @@
           width: 342px;
         }
         .request__textarea {
+          margin-top: 21px;
           width: 342px;
         }
         .footer {
-          width: 375px;
-          height: 210px;
+          width: auto;
           padding: 0;
+
+        }
+        .footer__box {
+          width: auto;
           padding-top: 50px;
           padding-bottom: 48px;
           flex-direction: column;
           align-items: center;
           text-align: center;
+        }
+        .footer__img {
+          padding-top: 38px;
         }
 
       }
