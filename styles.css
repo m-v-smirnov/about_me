@@ -13,12 +13,6 @@
       .start {
         background-color: var(--theme-color1);
         font-family: 'Roboto', sans-serif;
-      /*  width: 1920px;
-        height: 700px;
-        padding-top: 57px;
-        padding-bottom: 146px;
-        padding-left: 402px;
-        padding-right: 413px;*/
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -66,7 +60,6 @@
         padding-left: 102px;
       }
       .start__div {
-        /*height: 297px;*/
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -76,7 +69,6 @@
         font-weight: 500;
         font-size: 48px;
         width: 541px;
-        /*min-width: 302px;*/
       }
       .start__section {
         padding: 60px 0;
@@ -103,8 +95,6 @@
         align-items: center;
         justify-content: space-between;
         background-color: var(--theme-color3);
-        /*width: 1920px;
-        height: 366px;*/
         margin: 0 auto;
         padding-top: 119px;
         padding-bottom: 100px;
@@ -122,33 +112,22 @@
         color: var(--theme-color5);
       }
       .aboutme__footer {
-        /*width: 1920px;
-        height: 250px;
-        padding-left: 405px;
-        padding-right: 424px;*/
-
         background-color: var(--theme-color2);
+        display: flex;
+        justify-content: center;
       }
       .aboutme__div {
         padding: 100px 0;
-        margin: 0 auto;
-        width: 1150px;
         display: flex;
         justify-content: space-around;
       }
       .aboutme__img {
+        margin: 0 25px;
         width: 141px;
       }
       .skills {
         font-family: 'Roboto', sans-serif;
         background-color: var(--theme-color3);
-        /*width: 1920px;
-        height: 653px;
-        padding-top: 102px;
-        padding-bottom: 101px;
-        padding-right: 384px;
-        padding-left: 386px;*/
-
       }
       .skills__content {
         width: 1150px;
@@ -207,7 +186,6 @@
         font-weight: 500;
         font-size: 32px;
         line-height: 37px;
-        /*padding-top: 100px;*/
       }
       .work__article {
         font-size: 16px;
@@ -219,7 +197,6 @@
       }
       .work__div {
         position: relative;
-        /*margin-bottom: 100px;*/
       }
       .work__img {
         width: 1110px;
@@ -237,8 +214,6 @@
         opacity: 0.8;
       }
       .gridbox {
-    /*    width: 1920px;
-        height: 1016px;*/
         padding-top: 28px;
         padding-bottom: 28px;
         background-color: var(--theme-color3);
@@ -252,9 +227,7 @@
       }
       .grid__div {
         position: relative;
-        /*width: 480px;*/
         background-color: var(--theme-color2);
-        /*flex: 25%;*/
         max-width: 25%;
       }
       .grid__imgbox {
@@ -264,7 +237,6 @@
       .grid__img {
         opacity: 1;
         width: 100%;
-        /*width: 480px;*/
       }
       .grid__eye {
         width: 100px;
@@ -282,8 +254,6 @@
       }
       .request {
         font-family: 'Roboto', sans-serif;
-        /*width: 1920px;
-        height: 762px;*/
         padding: 100px 0;
         display: flex;
         flex-direction: column;
@@ -315,7 +285,6 @@
         flex-direction: column;
         justify-content: space-between;
         width: 540px;
-        height: 245px;
       }
       .request__formtext {
         display: flex;
@@ -337,6 +306,7 @@
         height: 175px;
         border: 0px;
         padding: 17px 20px;
+        margin-top: 20px;
         resize: none;
         font-size: 14px;
         line-height: 23px;
@@ -353,13 +323,8 @@
       }
       .footer {
         font-family: 'Roboto', sans-serif;
-
         background-color: var(--theme-color2);
         color: var(--theme-color3);
-        /*width: 1920px;
-        height: 151px;
-        padding-left: 406px;
-        padding-right: 389px;*/
 
       }
       .footer__box {
@@ -406,97 +371,99 @@
           float: none;
         }
         .start__frameflex {
-          padding-top: 67px;
-          padding-bottom: 95px;
+          padding: 67px 0 95px 0;
           flex-direction: column;
           justify-content: space-between;
-          width: auto;
+          width: 100%;
         }
         .start__frame {
-          width: auto;
-          padding: 0;
+          width: 100%;
           margin: 0 auto;
-          margin-bottom: 51px;
+          padding: 0 38px 51px 39px;
         }
         .start__img {
-          width: 298px;
+          width: 100%;
         }
         .start__div {
           align-items: center;
+          width: 100%;
         }
         .start__header {
           text-align: center;
           font-size: 36px;
-          width: 302px;
+          width: 100%;
         }
         .start__section {
-          padding: 44px 0;
+          padding: 44px 26px 44px 27px;
           text-align: center;
-          width: 322px
+          width: 100%;
         }
         .aboutme {
           padding-top: 91px;
           padding-bottom: 82px;
         }
         .aboutme__header{
-          width: 126px;
+          width: 100%;
         }
         .aboutme__article{
-          width: 323px;
+          padding: 0 26px;
+          width: 100%;
           line-height: 19px;
         }
         .aboutme__footer {
-
+          justify-content: space-between;
         }
         .aboutme__div {
           width: auto;
-          flex-wrap: wrap;
+          flex-direction: column;
           padding: 30px 0;
+          align-items: center;
         }
         .aboutme__img {
           padding: 45px 0;
         }
         .skills__content {
-          padding: 0;
-          padding-top: 82px;
-          padding-bottom: 103px;
-          width: auto;
+          width: 100%;
+          padding: 82px 18px 103px 18px;
           flex-direction: column;
           align-items: center;
         }
         .skills__aside {
         }
         .skills__img {
-          width: 339px;
-        /*  align-self: center;*/
-        }
-        .skills__header {
-
+          width: 100%;
         }
         .skills__div {
           margin-top: 98px;
           align-items: center;
-          width: 339px;
+          width: 100%;
+          height: auto;
+        }
+        .skills__text {
+          width: 100%;
         }
         .skills__stripes1 {
-          width: 339px;
+          width: 100%;
         }
         .skills__stripes2 {
-          width: 267px;
-          height: 4px;
+          width: 79%;
         }
         .work {
           padding-top: 93px;
           padding-bottom: 91px;
         }
         .work__header {
-          width: 220px;
+          width: 100%;
         }
         .work__article {
-          width: 323px;
+          width: 100%;
+          padding-left: 26px;
+          padding-right: 26px;
         }
         .work__img {
-          width: 339px;
+          width: 100%;
+          padding-left: 18px;
+          padding-right: 18px;
         }
         .work__play {
           width: 75px;
@@ -521,36 +488,38 @@
           padding-bottom: 100px;
         }
         .request__header {
-          width: 260px;
+          width: 100%;
         }
         .request__article {
-          width: 322px;
-          padding-top: 34px;
-          padding-bottom: 48px;
+          width: 100%;
+          padding: 34px 26px 26px 27px;
         }
         .request__form {
           height: auto;
-          width: 342px;
+          width: 100%;
+          padding-right: 17px;
+          padding-left: 16px;
           /*height: 318px;*/
         }
         .request__formtext {
-          height: 122px;
+          height: auto;
           flex-direction: column;
         }
         .request__text {
-          width: 342px;
+          margin-top: 22px;
+          width: 100%;
         }
         .request__textarea {
           margin-top: 21px;
-          width: 342px;
+          width: 100%;
         }
         .footer {
-          width: auto;
+          width: 100%;
           padding: 0;
 
         }
         .footer__box {
-          width: auto;
+          width: 100%;
           padding-top: 50px;
           padding-bottom: 48px;
           flex-direction: column;
